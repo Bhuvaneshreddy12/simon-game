@@ -54,7 +54,7 @@ function checkAnswer(currentLevel) {
       }, 1000);
     }
   } else {
-    playSound("Legends-Are-Made");
+    playSound("wrong");
 
     $("body").addClass("game-over");
     setTimeout(function () {
